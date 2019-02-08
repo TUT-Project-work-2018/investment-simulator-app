@@ -1,4 +1,4 @@
-# sijoitussimulaattori-app
+# Investment-simulator-app
 
 This is result of one project's work on the project work course of Tampere University of Technology in 2018-2019. Following people have been participanting of doing this:
 
