@@ -1,0 +1,171 @@
+{
+  "Navigation": {
+    "Labels": {
+      "Profile": "Profile",
+      "Commissions": "Commissions",
+      "Community": "Community",
+      "Portfolios": "Portfolios",
+      "Stocks": "Stocks"
+    }
+  },
+  "CommissionsPage": {
+    "Title": "Commissions",
+    "PlaceholderText": "PLACEHOLDER: My commissions",
+    "GoToMarketsButtonLabel": "Go to Markets",
+    "GoToStockButtonLabel": "Go to Stock"
+  },
+  "CommunityPage": {
+    "Title": "Community",
+    "PlaceholderText": "PLACEHOLDER: Community page"
+  },
+  "PortfoliosPage": {
+    "Title": "Portfolios",
+    "PlaceholderText": "PLACEHOLDER: Listing of portfolios",
+    "GoToPortfolioPage": "Go to Portfolio"
+  },
+  "MarketPage": {
+    "Title": "Stocks",
+    "PlaceholderText": "PLACEHOLDER: List of stocks",
+    "GoToCommissionsButtonLabel": "Go to Commissions",
+    "GoToHomePageButtonLabel": "Go to Home Page"
+  },
+  "ProfilePage": {
+    "Title": "Profile",
+    "PlaceholderText": "PLACEHOLDER: Profile page"
+  },
+  "InfoPage": {
+    "PlaceholderText": "PLACEHOLDER: Info page"
+  },
+  "Loading": {
+    "LoggedInAs": "Logged in as"
+  },
+  "Auth": {
+    "NoAuthenticatedUser": "No authenticated user"
+  },
+  "ListStockPage": {
+    "RevenueText": "Revenue today",
+    "LastSaleText": "Last sale",
+    "NoPortfolio": "You don't own any portfolios"
+  },
+  "StockPage": {
+    "Title": "Stock",
+    "GoToProfilePageButton": "Profile",
+    "Open": "Open",
+    "Close": "Close",
+    "Volume": "Volume",
+    "High": "High",
+    "Low": "Low",
+    "MarketValue": "Market value",
+    "RevenueText": "Revenue today",
+    "Updated": "Updated",
+    "RevenueOverYear": "Revenue over a year",
+    "Bid": "Bid"
+  },
+  "LoginScreen": {
+    "NewUserGreeting": "Your first time at ValueTown?",
+    "NewUserButton": "Continue as new user",
+    "AfterErrButton": "Try again"
+  },
+  "BidPage": {
+    "Title": "Choose action for ",
+    "Buy": "Buy",
+    "Sell": "Sell",
+    "ChoosePortfolio": "Choose portfolio",
+    "SumOfStocksBuy": "Select sum of stocks to buy",
+    "SumOfStocksSell": "Select sum of stocks to sell",
+    "ChooseBidLevel": "Choose bid level",
+    "SumUp": "SUM UP",
+    "Cancel": "CANCEL",
+    "NoPortfoliosError": "You can't bid on stocks because you don't have any portfolios. Please create portfolio from Portfolios-page and try again.",
+    "GoBack": "GO BACK"
+  },
+  "SumUpPage": {
+    "Cancel": "CANCEL",
+    "Confirm": "CONFIRM",
+    "YoureGoingTo": "You're going to",
+    "FollowingDetails": "with following details",
+    "Portfolio": "Portfolio",
+    "TotalValueOfPortfolio": "Total value of portfolio",
+    "AmountOfStocks": "Amount of stocks",
+    "BidLevel": "Bid level",
+    "TotalCost": "Total cost of transaction:",
+    "PortfoliosValueAfter": "Portfolios value after transaction:",
+    "YouOwn": "You own",
+    "StocksOf": "stocks of",
+    "YourPortfoliosTotVal": "Your portfolios total value is",
+    "TotalSumOfTransaction": "Total sum of transaction is"
+  },
+  "Graph": {
+    "NoData": "No data, choose another timespan",
+    "1D": "Today",
+    "1W": "1 Week",
+    "1M": "1 Month",
+    "3M": "3 Months",
+    "1Y": "1 Year",
+    "Month": {
+      "1": "jan",
+      "2": "feb",
+      "3": "mar",
+      "4": "apr",
+      "5": "may",
+      "6": "jun",
+      "7": "jul",
+      "8": "aug",
+      "9": "sep",
+      "10": "oct",
+      "11": "nov",
+      "12": "dec"
+    }
+  },
+  "PortfolioPage": {
+    "Title": "Portfolio",
+    "MarketValue": "Market value",
+    "Cash": "Cash",
+    "TotalValue": "Total Value",
+    "Revenue": "Revenue today",
+    "Holdings": "My holdings",
+    "Events": "Events & transactions",
+    "Manage": "Manage portfolio",
+
+    "StocksOwned": "Stocks Owned",
+    "TotalRevenueProcent": "Total Revenue (%)",
+    "Acquisition": "Acquisition price",
+    "TotalMarketValue": "Total market value",
+    "TotalRevenue": "Total revenue"
+  },
+  "CreatePortfolio": {
+    "ConfirmButtonText": "Create Portfolio",
+    "Title": "Create Portfolio",
+    "PortfolioNameInputTitle": "Name your portfolio",
+    "PortfolioAmountInputTitle": "Give initial capital to your portfolio",
+    "Cancel": "Cancel",
+    "Save": "Save"
+  },
+  "InputErrors": {
+    "NameEmpty": "Name can not be empty!",
+    "NotNumber": "Amount needs to be a number!",
+    "NotPositiveNumber": "Amount needs to be postive number!"
+  },
+  "PortfolioListing": {
+    "TotalRevenue": "Total revenue (%)",
+    "RevenueToday": "Revenue today",
+    "NoPortfolios": "You don't have any portfolios"
+  },
+  "OpenTransactions": {
+    "NoTransactions": "No pending transactions",
+    "ToggleTitle": "Open Transactions",
+    "Amount": "Amount",
+    "Total": "Total cost",
+    "Cancel": "Cancel",
+    "AlertTitle": "Confirmation",
+    "Transaction": "transaction",
+    "No": "No",
+    "Yes": "Yes"
+  },
+  "TransactionsPage": {
+    "NoTransactions": "No transactions",
+    "Amount": "Amount",
+    "Value": "Value",
+    "State": "State"
+  }
+}
