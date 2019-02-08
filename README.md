@@ -19,25 +19,15 @@ The repositories of backends:
 
 ## Known issues
 
-- Data returned by the dummy-server is not accurate
- - The data returned by the dummy server does not match that of returned by the stock service. There are problems especially in the file `dummy-server/data/availableStocks.json`.
-- Single stock page: Graph title does not update
- - Current behavior: Graph can show today/week/month/3 months/year worth of data. No matter which is active, title is "Revenue over a year".
-
- Expected behavior:
-
- Title updates with selected timespan or title does not mention timespan at all.
-- console.logs in dummy-server
- - Could be replaced with middleware such as (before app.post)
+* **Data returned by the dummy-server is not accurate:** The data returned by the dummy server does not match that of returned by the stock service. There are problems especially in the file `dummy-server/data/availableStocks.json`.
+- **Single stock page: Graph title does not update: Current behavior:** Graph can show today/week/month/3 months/year worth of data. No matter which is active, title is "Revenue over a year". **Expected behavior:** Title updates with selected timespan or title does not mention timespan at all.
+- **console.logs in dummy-server:** Could be replaced with middleware such as (before app.post)
  app.use((req, res, next) => { // Log default information next();});
-- Some texts are cut off on Android
- - Referring to  [facebook/react-native#15114](https://github.com/facebook/react-native/issues/15114).
- One workaround seems to be to add the Roboto font (that should be natively on Android) manually to the Android project.`
-- Stock page graph time span is unintuitive
- - In UX point of view, the graph should show the data for last week (last 7 days) instead of the current week, last month (30 days) instead of the current month etc.
-- Portfolio creation screen is not reacting to the size changes of the view when the keyboard is shown (the input fileds are covered by the keyboard while typing into them).
-- Source code seems to contain hard coded currency symbols.
-- Portfolio-page doesn't render as it should (on one plus 6).
+- **Some texts are cut off on Android:** Referring to  [facebook/react-native#15114](https://github.com/facebook/react-native/issues/15114). One workaround seems to be to add the Roboto font (that should be natively on Android) manually to the Android project.`
+- **Stock page graph time span is unintuitive** In UX point of view, the graph should show the data for last week (last 7 days) instead of the current week, last month (30 days) instead of the current month etc.
+- **Portfolio creation screen is not reacting to the size changes of the view when the keyboard is shown (the input fileds are covered by the keyboard while typing into them).**
+- **Source code seems to contain hard coded currency symbols.**
+- **Portfolio-page doesn't render as it should (on one plus 6).**
 
 ## Getting started
 
